@@ -4,7 +4,7 @@ Electron 19.0.0 已发布！它包括升级到 Chromium `102`、V8 `10.2`、Node
 
 ---
 
-Electron 团队很高兴发布了 Electron 19.0.0！您可以通过 `npm install electron@later` 进行安装，或者从我们的[发布网站](https://www.electronjs.org/releases/stable) 下载它。 继续阅读有关此版本的详细信息，并请分享您的任何反馈！
+Electron 团队很高兴发布了 Electron 19.0.0！您可以通过 `npm install electron@later` 进行安装，或者从我们的[发布网站](https://www.electronjs.org/releases/stable)下载它。 继续阅读有关此版本的详细信息，并请分享您的任何反馈！
 
 ## 重要变化
 
