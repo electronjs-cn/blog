@@ -8,7 +8,7 @@ Electron 团队很高兴发布了 Electron 19.0.0！您可以通过 `npm install
 
 ## 重要变化
 
-> 从这个版本开始，安装 electron 时，可以正确解析 `HTTP(S)_PROXY` 环境变量了。即：安装 electron 时，无需配置代理软件的全局代理或者增强模式了。这一点会显著改善中国大陆使用 electron 的使用体验。
+> 从这个版本开始，安装 Electron 时，可以正确解析 `HTTP(S)_PROXY` 环境变量了。即：安装 Electron 时，无需配置代理软件的全局代理或者增强模式了。这一点会显著改善中国大陆用户使用 Electron 的体验。
 
 ### Electron 发布时间变更
 
