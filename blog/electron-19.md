@@ -48,7 +48,7 @@ Electron 14.x.y 和 15.x.y 都已终止支持。[该博客文章](https://www.el
 
 ## 下一步做什么
 
-在短期内，您可以期望该团队继续专注于跟上构成 Electron 的主要组件的开发，包括 Chromium，Node 和 V8。 虽然我们谨慎地不对发布日期做出承诺，但我们的计划是大约每2个月发布一次带有新版本组件的主要版本的 Electron。
+在短期内，我们会专注于 Electron 的主要组件的开发工作，包括 Chromium，Node 和 V8。 虽然我们谨慎地不对发布日期做出承诺，但我们的计划仍是大约每两个月发布一次带有新版本组件的主要版本的 Electron。
 
 您可以在此处找到[Electron 的公开时间表](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)。
 
