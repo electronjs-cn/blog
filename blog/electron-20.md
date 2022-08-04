@@ -28,7 +28,7 @@ Electron 团队很高兴发布了 Electron 20.0.0！ 您可以通过 `npm instal
 
 ## 破坏性 & API 更改
 
-以下是 Electron 20 中引入的破坏性变化。 有关这些和未来变化的更多信息可在 [计划的突破性变化](https://www.electronjs.org/docs/latest/breaking-changes) 页面找到。
+以下是 Electron 20 中引入的破坏性变化。有关这些和未来变化的更多信息可在 [计划的突破性变化](https://www.electronjs.org/docs/latest/breaking-changes) 页面找到。
 
 ### V8 Memory Cage 已启用
 
