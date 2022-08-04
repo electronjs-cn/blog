@@ -10,11 +10,11 @@ Electron 团队很高兴发布了 Electron 20.0.0！您可以通过 `npm install
 
 ### 新特性
 
-* 在 Windows 上添加了沉浸式暗黑模式。 [#34549](https://github.com/electron/electron/pull/34549)
-* 添加支持类似面板的行为。 窗口可以浮动在全屏应用上。 [#34665](https://github.com/electron/electron/pull/34665)
-* 更新了 Windows 控件覆盖按钮，使其在 Windows 11 上的外观和感觉更加原生。 [#34888](https://github.com/electron/electron/pull/34888)
-* 现在开始，渲染器在默认情况下会被沙盒化，除非指定了 `nodeIntegration: true` 或 `sandbox: false`。 [#35125](https://github.com/electron/electron/pull/35125)
-* 添加了使用 nan 构建原生模块时的保护措施。 [#35160](https://github.com/electron/electron/pull/35160)
+* 在 Windows 上添加了沉浸式暗黑模式。[#34549](https://github.com/electron/electron/pull/34549)
+* 添加支持类似面板的行为。窗口可以浮动在全屏应用上。[#34665](https://github.com/electron/electron/pull/34665)
+* 更新了 Windows 控件覆盖按钮，使其在 Windows 11 上的外观和感觉更加原生。[#34888](https://github.com/electron/electron/pull/34888)
+* 现在开始，渲染器在默认情况下会被沙盒化，除非指定了 `nodeIntegration: true` 或 `sandbox: false`。[#35125](https://github.com/electron/electron/pull/35125)
+* 添加了使用 nan 构建原生模块时的保护措施。[#35160](https://github.com/electron/electron/pull/35160)
 
 ### Stack Changes
 
@@ -36,9 +36,9 @@ Electron 20 启用 [V8 沙盒指针](https://docs.google.com/document/d/1HSap8-J
 
 ### 默认值被更改：默认情况下，渲染器不为 `nodeIntegration: true` 将进行沙盒处理
 
-之前, 指定预加载脚本的渲染器默认不启用沙盒。 这意味着默认情况下，预加载脚本可以访问 Node.js。 在 Electron 20中，此默认值将被更改。 从 Electron 20 开始，渲染器 默认情况下会被沙盒化，除非指定了 `nodeIntegration: true` 或 `sandbox: false`。
+之前, 指定预加载脚本的渲染器默认不启用沙盒。这意味着默认情况下，预加载脚本可以访问 Node.js。在 Electron 20中，此默认值将被更改。从 Electron 20 开始，渲染器 默认情况下会被沙盒化，除非指定了 `nodeIntegration: true` 或 `sandbox: false`。
 
-如果预加载脚本不依赖于 Node，则无需执行任何操作。 如果 preload 脚本依赖于 Node，请重构代码，或从渲染器中删除 Node 用法 ，或者显式指定相关渲染器 `sandbox: false`。
+如果预加载脚本不依赖于 Node，则无需执行任何操作。如果 preload 脚本依赖于 Node，请重构代码，或从渲染器中删除 Node 用法 ，或者显式指定相关渲染器 `sandbox: false`。
 
 ### 修复：nan原生模块自发崩溃的问题
 
@@ -46,15 +46,15 @@ Electron 20 启用 [V8 沙盒指针](https://docs.google.com/document/d/1HSap8-J
 1. V8 headers 现在默认使用 `c++17`。这个标志已添加到 electron-rebuild 了。
 1. 我们修复了一个问题，即一个缺失的 include 导致依赖于 nan 的原生模块自发崩溃。
 
-为了获得最大的稳定性，我们建议在重新构建原生模块时使用 node-gyp >= 8.4.0 和 electron-rebuild >= 3.2.9，特别是依赖于nan的模块。 有关更多信息，请参阅 electron [#35160](https://github.com/electron/electron/pull/35160) 和 node-gyp [#2497](https://github.com/nodejs/node-gyp/pull/2497)。
+为了获得最大的稳定性，我们建议在重新构建原生模块时使用 node-gyp >= 8.4.0 和 electron-rebuild >= 3.2.9，特别是依赖于nan的模块。有关更多信息，请参阅 electron [#35160](https://github.com/electron/electron/pull/35160) 和 node-gyp [#2497](https://github.com/nodejs/node-gyp/pull/2497)。
 
 ### 已删除：Linux 上的 `.skipTaskbar`
 
-在 X11上, `skipTaskbar` 向 X11 窗口管理器发送一条 `_NET_WM_STATE_SKIP_TASKBAR` 消息。 Wayland 没有与其一致的功能，并且已知的 变通办法具有不可接受的理由（如，在 GNOME 中 Window.is_skip_taskbar 需要不安全模式），因此 Electron 无法在 Linux 上支持此功能。
+在 X11上, `skipTaskbar` 向 X11 窗口管理器发送一条 `_NET_WM_STATE_SKIP_TASKBAR` 消息。Wayland 没有与其一致的功能，并且已知的 变通办法具有不可接受的理由（如，在 GNOME 中 Window.is_skip_taskbar 需要不安全模式），因此 Electron 无法在 Linux 上支持此功能。
 
 ## 终止对 17.x.y 的支持
 
-根据项目的[支持政策](https://www.electronjs.org/docs/latest/tutorial/electron-timelines#version-support-policy)，Electron 17.x.y 已经达到了支持的终点。 我们鼓励开发者和应用程序升级到更新的 Electron 版本。
+根据项目的[支持政策](https://www.electronjs.org/docs/latest/tutorial/electron-timelines#version-support-policy)，Electron 17.x.y 已经达到了支持的终点。我们鼓励开发者和应用程序升级到更新的 Electron 版本。
 
 | E18 (Mar'22) | E19 (May'22) | E20 (Aug'22) | E21 (Sep'22) | E22 (Dec'22) |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -65,7 +65,7 @@ Electron 20 启用 [V8 沙盒指针](https://docs.google.com/document/d/1HSap8-J
 
 ## 下一步做什么
 
-在短期内，你可以期待我们的团队继续专注于跟上构成 Electron 的主要组件的发展，包括 Chromium、Node 和 V8。 虽然我们谨慎地不对发布日期做出承诺，但我们的计划是大约每2个月发布一次带有新版本组件的主要版本的 Electron。
+在短期内，你可以期待我们的团队继续专注于跟上构成 Electron 的主要组件的发展，包括 Chromium、Node 和 V8。虽然我们谨慎地不对发布日期做出承诺，但我们的计划是大约每2个月发布一次带有新版本组件的主要版本的 Electron。
 
 您可以在此处找到 [Electron 的公开时间表](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)。
 
