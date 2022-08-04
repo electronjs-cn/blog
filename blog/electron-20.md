@@ -42,7 +42,7 @@ Electron 20 启用 [V8 沙盒指针](https://docs.google.com/document/d/1HSap8-J
 
 ### 修复：nan原生模块自发崩溃的问题
 
-在Electron 20中，我们更改了两个与原生模块相关的项目：
+在 Electron 20 中，我们更改了两个与原生模块相关的项目：
 1. V8 headers 现在默认使用 `c++17` 。 这个标志已添加到 electron-rebuild 了。
 1. 我们修复了一个问题，即一个缺失的 include 导致依赖于 nan 的原生模块自发崩溃。
 
