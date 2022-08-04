@@ -1,6 +1,6 @@
 > Ref: https://github.com/electron/electronjs.org-new/blob/main/blog/electron-20-0.md
 
-Electron 20.0.0 已发布！ 它包括升级到 Chromium `104`, V8 `10.4`, 和 Node.js `16.15.0`。请阅读下文了解更多详情！
+Electron 20.0.0 已发布！它包括升级到 Chromium `104`, V8 `10.4`, 和 Node.js `16.15.0`。请阅读下文了解更多详情！
 
 ---
 
