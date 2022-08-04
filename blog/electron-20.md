@@ -46,7 +46,7 @@ Electron 20 启用 [V8 沙盒指针](https://docs.google.com/document/d/1HSap8-J
 1. V8 headers 现在默认使用 `c++17`。这个标志已添加到 electron-rebuild 了。
 1. 我们修复了一个问题，即一个缺失的 include 导致依赖于 nan 的原生模块自发崩溃。
 
-为了获得最大的稳定性，我们建议在重新构建原生模块时使用 node-gyp >= 8.4.0 和 electron-rebuild >= 3.2.9，特别是依赖于nan的模块。 有关更多信息，请参阅 electron [#35160](https://github.com/electron/electron/pull/35160) 和 node-gyp [#2497](https://github.com/nodejs/node-gyp/pull/2497) 。
+为了获得最大的稳定性，我们建议在重新构建原生模块时使用 node-gyp >= 8.4.0 和 electron-rebuild >= 3.2.9，特别是依赖于nan的模块。 有关更多信息，请参阅 electron [#35160](https://github.com/electron/electron/pull/35160) 和 node-gyp [#2497](https://github.com/nodejs/node-gyp/pull/2497)。
 
 ### 已删除：Linux 上的 `.skipTaskbar`
 
