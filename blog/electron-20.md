@@ -32,7 +32,7 @@ Electron 团队很高兴发布了 Electron 20.0.0！ 您可以通过 `npm instal
 
 ### V8 Memory Cage 已启用
 
-Electron 20 启用 [V8 沙盒指针](https://docs.google.com/document/d/1HSap8-J3HcrZvT7-5NsbYWcjfc0BVoops5TDHZNsnko/edit)，继Chrome [决定在 Chrome 103](https://chromiumdash.appspot.com/commit/9a6a76bf13d3ca1c6788de193afc5513919dd0ed) 做同样的事情。 这对原生模块有一定的影响。 此功能具有性能和安全优势，但也对原生模块施加了一些新的限制，例如，使用指向外部（“堆外”）内存的ArrayBuffers。 更多信息请查看 [博客文章](https://electronjs.org/blog/v8-memory-cage)。
+Electron 20 启用 [V8 沙盒指针](https://docs.google.com/document/d/1HSap8-J3HcrZvT7-5NsbYWcjfc0BVoops5TDHZNsnko/edit)，继 Chrome [决定在 Chrome 103](https://chromiumdash.appspot.com/commit/9a6a76bf13d3ca1c6788de193afc5513919dd0ed) 做同样的事情。 这对原生模块有一定的影响。 此功能具有性能和安全优势，但也对原生模块施加了一些新的限制，例如，使用指向外部（“堆外”）内存的ArrayBuffers。更多信息请查看 [博客文章](https://electronjs.org/blog/v8-memory-cage)。
 
 ### 默认值被更改：默认情况下，渲染器不为 `nodeIntegration: true` 将进行沙盒处理
 
