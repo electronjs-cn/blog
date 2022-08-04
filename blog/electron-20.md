@@ -36,7 +36,7 @@ Electron 20 启用 [V8 沙盒指针](https://docs.google.com/document/d/1HSap8-J
 
 ### 默认值被更改：默认情况下，渲染器不为 `nodeIntegration: true` 将进行沙盒处理
 
-之前, 指定预加载脚本的渲染器默认不启用沙盒。 这意味着默认情况下，预加载脚本可以访问Node.js。 在 Electron 20中，此默认值将被更改。 从Electron 20开始，渲染器 默认情况下会被沙盒化，除非指定了 `nodeIntegration: true` 或 `sandbox: false` 。
+之前, 指定预加载脚本的渲染器默认不启用沙盒。 这意味着默认情况下，预加载脚本可以访问 Node.js。 在 Electron 20中，此默认值将被更改。 从 Electron 20 开始，渲染器 默认情况下会被沙盒化，除非指定了 `nodeIntegration: true` 或 `sandbox: false` 。
 
 如果预加载脚本不依赖于 Node，则无需执行任何操作。 如果 preload 脚本依赖于 Node，请重构代码，或从渲染器中删除 Node 用法 ，或者显式指定相关渲染器 `sandbox: false` 。
 
