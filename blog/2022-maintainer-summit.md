@@ -1,13 +1,4 @@
----
-title: 2022 年维护者峰会回顾
-date: 2022-10-13T00:00:00.000Z
-authors:
-  - 
-    name: erickzhao
-    url: 'https://github.com/erickzhao'
-    image_url: 'https://github.com/erickzhao.png?size=96'
-slug: maintainer-summit-2022-recap
----
+> Ref: https://www.electronjs.org/blog/maintainer-summit-2022-recap
 
 # 2022 年维护者峰会回顾
 
