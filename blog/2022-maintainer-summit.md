@@ -3,7 +3,7 @@
 
 ![](https://www.electronjs.org/assets/img/2022-maintainer-summit.jpg)
 
-合影！ 取自 [@groundwater](https://github.com/groundwater)
+合影！取自 [@groundwater](https://github.com/groundwater)
 
 今后，团队仍将全力以赴，定期快速发布 Chromium 升级和 bug 修复，以确保 Electron 对每个人都更安全、更高效。 我们也有一些令人兴奋的项目正在进行，我们很乐意与社区分享！
 
