@@ -30,7 +30,7 @@ Electron 团队很高兴发布了 Electron 21.0.0！ 您可以通过 `npm instal
 
 ## 不兼容的 API 变更
 
-以下是 Electron 21 中引入的不兼容变更。
+以下是 Electron 21 中引入的破坏性变更。
 
 ### V8 Memory Cage 已启用
 
