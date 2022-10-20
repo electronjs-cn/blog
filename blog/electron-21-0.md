@@ -28,7 +28,7 @@ Electron 团队很高兴发布了 Electron 21.0.0！ 您可以通过 `npm instal
 * 添加支持类似面板的行为。 窗口可以浮动在全屏应用上。 [#34388](https://github.com/electron/electron/pull/34388)
 * 添加对 macOS 应用的 APN 推送通知的支持。 [#33574](https://github.com/electron/electron/pull/33574)
 
-## 不兼容的 API 变更
+## 破坏性的 API 变更
 
 以下是 Electron 21 中引入的破坏性变更。
 
