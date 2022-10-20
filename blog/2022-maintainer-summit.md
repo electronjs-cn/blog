@@ -16,7 +16,7 @@ slug: maintainer-summit-2022-recap
 <figure>
   <img src="/assets/img/2022-maintainer-summit.jpg"/>
   <figcaption align="center">
-    合影！ 取自 <a href="https://github.com/groundwater">@groundwater</a>
+    合影！取自 <a href="https://github.com/groundwater">@groundwater</a>
   </figcaption>
 </figure>
 
