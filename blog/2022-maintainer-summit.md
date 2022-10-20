@@ -1,4 +1,5 @@
 > Ref: https://www.electronjs.org/blog/maintainer-summit-2022-recap
+
 上个月，Electron 的维护者小组在加拿大温哥华举行会议，讨论了 2023 年及以后的项目方向。 在这四天的会议中，核心维护者和受邀合作者讨论了新的倡议、维护痛点和总体项目健康状态。
 
 ![](https://www.electronjs.org/assets/img/2022-maintainer-summit.jpg)
