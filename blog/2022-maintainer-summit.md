@@ -44,7 +44,7 @@ Electron 项目中需要达成共识的主要 API 提案需要通过申请 (RFC)
 
 #### 示例：将窗口模型重置为 `WebContentsView`
 
-我们计划的第一次更改是在 Electron 的 API 中显示 Chrome 的 WebContentsView。这将 是我们现有的 BrowsView API 的继承者(尽管该名称是 Electron 指定的代码 与 Chromium 视图无关)。 随着 WebContentsView 暴露，我们将有一个可重用的 View 对象 可以显示网页内容，为使 BrowserWindow 类成为纯粹的 JavaScript 打开了大门。 更多的消除了代码复杂性。
+我们计划的第一次更改是在 Electron 的 API 中显示 Chrome 的 WebContentsView。这将 是我们现有的 BrowsView API 的继承者（尽管该名称是 Electron 指定的代码 与 Chromium 视图无关）。 随着 WebContentsView 暴露，我们将有一个可重用的 View 对象 可以显示网页内容，为使 BrowserWindow 类成为纯粹的 JavaScript 打开了大门。 更多的消除了代码复杂性。
 
 尽管此更改并未为应用程序开发人员提供很多新功能，但它是一个大型重构，消除了许多底层代码，简化了 Chromium 升级并减少主要版本之间出现新错误的风险。
 
