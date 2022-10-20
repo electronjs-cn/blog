@@ -3,12 +3,9 @@
 
 上个月，Electron 的维护者小组在加拿大温哥华举行会议，讨论了 2023 年及以后的项目方向。 在这四天的会议中，核心维护者和受邀合作者讨论了新的倡议、维护痛点和总体项目健康状态。
 
-<figure>
-  <img src="/assets/img/2022-maintainer-summit.jpg"/>
-  <figcaption align="center">
-    合影！取自 <a href="https://github.com/groundwater">@groundwater</a>
-  </figcaption>
-</figure>
+![](/assets/img/2022-maintainer-summit.jpg)
+
+合影！ 取自 [@groundwater](https://github.com/groundwater)
 
 今后，团队仍将全力以赴，定期快速发布 Chromium 升级和 bug 修复，以确保 Electron 对每个人都更安全、更高效。 我们也有一些令人兴奋的项目正在进行，我们很乐意与社区分享！
 
@@ -54,7 +51,7 @@ Electron 项目中需要达成共识的主要 API 提案需要通过申请 (RFC)
 
 ## Electron Forge v6 稳定发布
 
-自从该框架诞生以来，Electron 的构建工具生态系统在很大程度上是由社区驱动的。 社区驱动的，由许多小型的单用途包组成(例如 electron-installer, electron-packager, electron-notarize, electron-osx-sign)。 尽管这些工具能够正常使用，但对于用户来说，要完成一个构建工作不是一件很容易的事。
+自从该框架诞生以来，Electron 的构建工具生态系统在很大程度上是由社区驱动的。 社区驱动的，由许多小型的单用途包组成（例如 electron-installer, electron-packager, electron-notarize, electron-osx-sign）。 尽管这些工具能够正常使用，但对于用户来说，要完成一个构建工作不是一件很容易的事。
 
 为了让 Electron 开发者有一个更友好的开发体验，我们新建了 Electron Forge，一个多合一的解决方案，将所有这些现有的工具整合到一个界面中。 一体化的解决方案，将所有这些现有的工具整合到一个单一的界面中。 虽然 Forge 自 2017 年以来一直在开发，但该项目在过去几年中一直处于停顿状态。 然而，考虑到社区对 Electron 构建工具状态的反馈，我们一直在努力发布下一代稳定的 Forge 主要版本。
 
