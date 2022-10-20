@@ -1,21 +1,4 @@
----
-title: Electron 21.0.0
-date: 2022-09-27T00:00:00.000Z
-authors:
-  - 
-    name: ckerr
-    url: 'https://github.com/ckerr'
-    image_url: 'https://github.com/ckerr.png?size=96'
-  - 
-    name: vertedinde
-    url: 'https://github.com/vertedinde'
-    image_url: 'https://github.com/vertedinde.png?size=96'
-  - 
-    name: georgexu99
-    url: 'https://github.com/georgexu99'
-    image_url: 'https://github.com/georgexu99.png?size=96'
-slug: electron-21-0
----
+> Ref: https://github.com/electron/electronjs.org-new/blob/main/blog/electron-21-0.md
 
 Electron 21.0.0 已发布！ 它包括升级到 Chromium `106`, V8 `10.6`, 和 Node.js `16.16.0`。 请阅读下文了解更多详情！
 
