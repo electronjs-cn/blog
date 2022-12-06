@@ -6,7 +6,7 @@ Electron 22.0.0 已发布！ 它包括了一个新的实用进程 API、对 Wind
 
 Electron 团队很高兴发布了 Electron 22.0.0！ 您可以通过 `npm install electron@latest` 进行安装，或者从我们的 [发布网站](https://releases.electronjs.org/releases/stable) 下载它。 继续阅读此版本的详细信息。
 
-如果您有任何反馈，请在Twitter上与我们分享，或加入我们的社区 [Discord](https://discord.com/invite/electronjs)！ Bug 和功能请求可以在 Electron 的 [问题跟踪器](https://github.com/electron/electron/issues) 中报告。
+如果您有任何反馈，请在 Twitter 上与我们分享，或加入我们的社区 [Discord](https://discord.com/invite/electronjs)！ Bug 和功能请求可以在 Electron 的 [问题跟踪器](https://github.com/electron/electron/issues) 中报告。
 
 ## 重要变化
 
@@ -27,7 +27,7 @@ Electron 团队很高兴发布了 Electron 22.0.0！ 您可以通过 `npm instal
 
 新的 `UtilityProcess` 主进程模块允许创建仅集成 Node.js 的轻量级 Chromium 子进程，同时还允许使用 `MessageChannel` 与沙盒渲染器进行通信。 
 
-该API是基于Node.js的 `child_process.fork` 设计的，以允许更容易的过渡，一个主要的区别是，入口点 `modulePath` 必须来自打包的应用程序内，以允许只加载受信任的脚本。 
+该 API 是基于 Node.js 的 `child_process.fork` 设计的，以允许更容易的过渡，一个主要的区别是，入口点 `modulePath` 必须来自打包的应用程序内，以允许只加载受信任的脚本。 
 
 此外，该模块默认情况下会阻止与渲染器建立通信通道，以保证主进程是应用程序中唯一受信任进程。
 
