@@ -17,21 +17,21 @@ authors:
 slug: electron-23-0
 ---
 
-Electron 23.0.0 已发布！ 此次升级中包含 Chromium `110`, V8 `11.0`, 和 Node.js `18.12.1`。  此外，取消了对Windows 7/8.1的支持。 请阅读下文了解更多详情！
+Electron 23.0.0 已发布！ 此次升级中包含 Chromium `110`, V8 `11.0`, 和 Node.js `18.12.1`。  此外，取消了对 Windows 7/8.1 的支持。 请阅读下文了解更多详情！
 
 ---
 
 Electron 团队很高兴发布了 Electron 23.0.0！ 您可以通过 `npm install electron@latest` 进行安装，或者从我们的 [发布网站](https://releases.electronjs.org/releases/stable) 下载它。 继续阅读此版本的详细信息。
 
-如果您有任何反馈，请在Twitter上与我们分享，或加入我们的社区 [Discord](https://discord.com/invite/electronjs)！ Bug 和功能请求可以在 Electron 的 [问题跟踪器](https://github.com/electron/electron/issues) 中报告。
+如果您有任何反馈，请在 Twitter 上与我们分享，或加入我们的社区 [Discord](https://discord.com/invite/electronjs)！ Bug 和功能请求可以在 Electron 的 [问题跟踪器](https://github.com/electron/electron/issues) 中报告。
 
 ## 重要变化
 
 ### 架构（Stack）更新
 
 * Chromium `110`
-    * [Chromium有新版本110](https://developer.chrome.com/blog/new-in-chrome-110/)
-    * [Chromium有新版本109](https://developer.chrome.com/blog/new-in-chrome-109/)
+    * [Chromium 有新版本110](https://developer.chrome.com/blog/new-in-chrome-110/)
+    * [Chromium 有新版本109](https://developer.chrome.com/blog/new-in-chrome-109/)
     * [DevTools 110 中的新增功能](https://developer.chrome.com/blog/new-in-devtools-110/)
     * [DevTools 109 中的新增功能](https://developer.chrome.com/blog/new-in-devtools-109/)
 * Node.js `18.12.1`
@@ -48,9 +48,9 @@ Electron 团队很高兴发布了 Electron 23.0.0！ 您可以通过 `npm instal
 
 ## 放弃对 Windows 7/8.1 支持
 
-Electron 23 不再支持Windows 7/8.1。 Electron 遵循计划中的 Chromium 弃用政策，该政策将 [在 Chromium 109 中弃用 Windows 7/8/8.1 支持（在此处阅读更多信息）](https://support.google.com/chrome/thread/185534985/sunsetting-support-for-windows-7-8-8-1-in-early-2023?hl=en)。
+Electron 23 不再支持 Windows 7/8.1。 Electron 遵循计划中的 Chromium 弃用政策，该政策将 [在 Chromium 109 中弃用 Windows 7/8/8.1 支持（在此处阅读更多信息）](https://support.google.com/chrome/thread/185534985/sunsetting-support-for-windows-7-8-8-1-in-early-2023?hl=en)。
 
-## 重要的API变更
+## 重要的 API 变更
 
 以下是 Electron 23 中引入的破坏性变更。 您可以在 [Planned Breaking Changes](https://github.com/electron/electron/blob/main/docs/breaking-changes.md) 页面上阅读有关这些更改和未来更改的更多信息。
 
@@ -78,7 +78,7 @@ Electron 23 不再支持Windows 7/8.1。 Electron 遵循计划中的 Chromium �
 
 ## 终止对 20.x.y 的支持
 
-根据项目的[支持政策](https://www.electronjs.org/docs/latest/tutorial/electron-timelines#version-support-policy)，Electron 20.x.y 已经达到了支持的终点。 Developers and applications are encouraged to upgrade to a newer version of Electron.
+根据项目的[支持政策](https://www.electronjs.org/docs/latest/tutorial/electron-timelines#version-support-policy)，Electron 20.x.y 已经达到了支持的终点。我们鼓励开发者和应用程序升级到最新的 Electron 版本。
 
 | E22（22 年 11 月） | E23（23 年 1 月） | E24（23 年 4 月） | E25（23 年 5 月） | E26（23 年 8月） |
 | -------------- | ------------- | ------------- | ------------- | ------------ |
