@@ -48,7 +48,7 @@ Electron v1 于 2016 年发布，承诺增加 API 稳定性和更好的文档和
 
 我们不得不克服的一个挑战是，在 Electron 初次爆发出人气后，如何处理项目的长期发展方向。 我们如何处理一个由几十名工程师组成、分布在不同公司、不同国家和不同时区的团队？
 
-在早期，Electron 的维护者团队依靠非正式的协调方式，这对于较小的项目来说是快速和轻量级的，但不适用于更广泛的协作。 在2019年，我们转向了一种治理模型，不同的工作组拥有正式的责任领域。 这对于简化流程和将项目所有权的部分分配给特定的维护者非常重要。 现在每个工作组 (WG) 负责什么？
+在早期，Electron 的维护者团队依靠非正式的协调方式，这对于较小的项目来说是快速和轻量级的，但不适用于更广泛的协作。 在 2019 年，我们转向了一种治理模型，不同的工作组拥有正式的责任领域。 这对于简化流程和将项目所有权的部分分配给特定的维护者非常重要。 现在每个工作组 (WG) 负责什么？
 
 - 将 Electron 发布上线 (Releases WG)
 - 升级 Chromium 和 Node.js (Upgrades WG)
@@ -64,9 +64,7 @@ Electron v1 于 2016 年发布，承诺增加 API 稳定性和更好的文档和
 虽然这种模式并不完美，但它在全球流行病和持续的宏观经济逆风中为我们提供了良好的支持。 今后，我们计划修订治理章程，以指导我们走向 Electron 的第二个十年。
 
 :::info
-
 如果您想了解更多，请查看 [electron/governance](https://github.com/electron/governance) 代码仓库！
-
 :::
 
 ### 社区
@@ -82,19 +80,19 @@ Electron v1 于 2016 年发布，承诺增加 API 稳定性和更好的文档和
 
 #### 参与高知名度的开源项目​
 
-- 自 2019 年以来，我们每年都会庆祝 [ Hacktoberest ](https://hacktoberfest.com/)。 Hacktoberfest 是由 DigitalOcean 组织的每年一度的开源庆典，每年我们都会有数十名热情的贡献者加入其中，希望在开源软件上留下自己的印记。
+- 自 2019 年以来，我们每年都会庆祝 [Hacktoberest](https://hacktoberfest.com/)。 Hacktoberfest 是由 DigitalOcean 组织的每年一度的开源庆典，每年我们都会有数十名热情的贡献者加入其中，希望在开源软件上留下自己的印记。
 - 在 2020 年，我们参加了首次举行的 Google Season of Docs 活动，与 [@bandantonio](https://github.com/bandantonio) 合作重新设计了 Electron 的新用户教程流程。
-- 2022年，我们第一次指导 Google Summer of Code 的学生。 [@aryanshridhar](https://github.com/aryanshridhar) 做了一些了不起的工作，重构了 [Electron Fiddle](https://github.com/electron/fiddle) 的核心版本加载逻辑，并将其捆绑包迁移到了 [webpack](https://webpack.js.org/)。
+- 2022 年，我们第一次指导 Google Summer of Code 的学生。 [@aryanshridhar](https://github.com/aryanshridhar) 做了一些了不起的工作，重构了 [Electron Fiddle](https://github.com/electron/fiddle) 的核心版本加载逻辑，并将其捆绑包迁移到了 [webpack](https://webpack.js.org/)。
 
 ### 将所有东西自动化！
 
-今天，Electron 的维护有大约 30 名积极的维护者。 我们中只有不到一半的人是全职贡献者，这意味着还有很多工作需要做。 我们怎么才能让一切顺利进行呢？ 我们的座右铭是计算机便宜，人的时间是昂贵的。 按照典型的工程师风格，我们开发了一套自动化支持工具来使我们的生活更轻松。
+今天，Electron 的维护有大约 30 名积极的维护者。 我们中只有不到一半的人是全职贡献者，这意味着还有很多工作需要做。我们怎么才能让一切顺利进行呢？ 我们的座右铭是计算机便宜，人的时间是昂贵的。按照典型的工程师风格，我们开发了一套自动化支持工具来使我们的生活更轻松。
 
 #### Not Goma​
 
-Electron 的核心代码库是一个庞大的 C++ 代码库，而编译时间一直是限制我们能够快速发布错误修复和新功能的因素之一。 在2020年，我们部署了[Not Goma](https://www.electronjs.org/docs/latest/development/goma)，这是一个专门为 Electron 定制的后端，用于 Google 的 [Goma](https://chromium.googlesource.com/infra/goma/client/) 分布式编译器服务。 Not Goma 处理来自授权用户机器的编译请求，并在后端的数百个核心上进行分布式编译。 它还会缓存编译结果，这样编译相同文件的其他人只需下载预编译的结果即可。
+Electron 的核心代码库是一个庞大的 C++ 代码库，而编译时间一直是限制我们能够快速发布错误修复和新功能的因素之一。在 2020 年，我们部署了 [Not Goma](https://www.electronjs.org/docs/latest/development/goma)，这是一个专门为 Electron 定制的后端，用于 Google 的 [Goma](https://chromium.googlesource.com/infra/goma/client/) 分布式编译器服务。Not Goma 处理来自授权用户机器的编译请求，并在后端的数百个核心上进行分布式编译。 它还会缓存编译结果，这样编译相同文件的其他人只需下载预编译的结果即可。
 
-自从启用 Not Goma 以来，维护者的编译时间已经从几个小时缩短到几分钟的级别。 拥有稳定的互联网连接成为贡献者编译 Electron 的最低要求！
+自从启用 Not Goma 以来，维护者的编译时间已经从几个小时缩短到几分钟的级别。拥有稳定的互联网连接成为贡献者编译 Electron 的最低要求！
 
 :::info
 
@@ -104,25 +102,23 @@ Electron 的核心代码库是一个庞大的 C++ 代码库，而编译时间一
 
 #### Continuous Factor Authentication
 
-[Continuous Factor Authentication (CFA)](http://continuousauth.dev/) 是 npm 双因素认证（2FA）系统的自动化层，我们将其与语义化版本控制工具（semantic-release）结合使用来管理我们各种 `@electron/` npm 包的安全和自动化发布。
+[Continuous Factor Authentication (CFA)](http://continuousauth.dev/) 是 npm 双因素认证（2FA）系统的自动化层，我们将其与语义化版本控制工具(semantic-release)结合使用来管理我们各种 `@electron/` npm 包的安全和自动化发布。
 
-虽然语义化版本控制工具（semantic-release）已经自动化了 npm 包的发布过程，但它需要关闭两步验证或传递绕过此限制的秘密令牌。
+虽然语义化版本控制工具(semantic-release)已经自动化了 npm 包的发布过程，但它需要关闭两步验证或传递绕过此限制的秘密令牌。
 
-我们构建了CFA 来为 npm 2FA 提供基于时间的一次性密码（TOTP），以供任意 CI 任务使用，从而让我们利用语义化版本控制工具（semantic-release）的自动化功能，同时保持双重身份验证的额外安全性。
+我们构建了CFA 来为 npm 2FA 提供基于时间的一次性密码 (TOTP)，以供任意 CI 任务使用，从而让我们利用语义化版本控制工具(semantic-release)的自动化功能，同时保持双重身份验证的额外安全性。
 
 我们使用 CFA 与 Slack 集成前端，允许维护人员在任何拥有 Slack 的设备上验证软件包发布，只要他们手头有 TOTP 生成器即可。
 
 :::info
-
-如果您想在自己的项目中尝试 CFA，请查看 [GitHub存储库](https://github.com/continuousauth/web) 或 [文档](https://docs.continuousauth.dev/) ！ 如果您使用 CircleCI 作为 CI 提供程序，我们还有 [一个方便的 orb](https://github.com/continuousauth/npm-orb)，可以快速搭建一个带有 CFA 的项目。
-
+如果您想在自己的项目中尝试 CFA，请查看 [GitHub存储库](https://github.com/continuousauth/web) 或 [文档](https://docs.continuousauth.dev/)！ 如果您使用 CircleCI 作为 CI 提供程序，我们还有 [一个方便的 orb](https://github.com/continuousauth/npm-orb)，可以快速搭建一个带有 CFA 的项目。
 :::
 
 #### Sheriff
 
 [Sheriff](https://github.com/electron/sheriff) 是我们编写的一个开源工具，用于自动化管理 GitHub、Slack 和 Google Workspace 等平台上的权限。
 
-Sheriff 的主要价值主张是权限管理应该是一个透明的进程。 它使用一个单独的 YAML 配置文件，指定了所有上述服务的权限。 使用 Sheriff，获得对仓库的协作者身份或创建新的邮件列表就像获得 PR 批准并合并一样容易。
+Sheriff 的主要价值主张是权限管理应该是一个透明的进程。它使用一个单独的 YAML 配置文件，指定了所有上述服务的权限。使用 Sheriff，获得对仓库的协作者身份或创建新的邮件列表就像获得 PR 批准并合并一样容易。
 
 Sheriff 还具有审计日志，会发布到 Slack，当 Electron 组织中的任何地方发生可疑活动时，会向管理员发出警告。
 
