@@ -30,7 +30,7 @@ slug: 10-years-of-electron
 
 从那时起，Electron 便一发不可收拾，从未停止过。 这里是每周下载量随时间变化的趋势，由 [npmtrends.com](https://npmtrends.com/electron) 提供:
 
-![Electron 每周下载量随时间变化的图表](/assets/img/weekly-download-graph.png)
+![Electron 每周下载量随时间变化的图表](https://www.electronjs.org/assets/images/weekly-download-graph-4626defd22a1516f5d335e0a6f40beb2.png)
 
 Electron v1 于 2016 年发布，承诺增加 API 稳定性和更好的文档和工具。 Electron v2 于 2018 年发布，并引入了语义版本，使 Electron 开发者更容易跟踪发布周期。
 
