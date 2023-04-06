@@ -96,7 +96,7 @@ if (ret === null) {
 - 允许向 `inAppPurchase.purchaseProduct()` 传递一个特定于应用程序的用户名。 [#35902](https://github.com/electron/electron/pull/35902)
 - 公开了 `window.invalidateShadow()`，以清除 macO S上残留的视觉伪影。 [#32452](https://github.com/electron/electron/pull/32452)
 - 整个程序优化现在在 Electron headers 配置文件中默认启用，允许编译器利用程序中所有模块的信息进行优化，而不是以每个模块 (compiland) 为基础。 [#36937](https://github.com/electron/electron/pull/36937)
-- `SystemPreferences::CanPromptTouchID` (macOS) 现在支持Apple Watch。 [#36935](https://github.com/electron/electron/pull/36935)
+- `SystemPreferences::CanPromptTouchID` (macOS) 现在支持 Apple Watch。 [#36935](https://github.com/electron/electron/pull/36935)
 
 ## 终止对 21.x.y 的支持
 
