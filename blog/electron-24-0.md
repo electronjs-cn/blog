@@ -94,7 +94,7 @@ if (ret === null) {
 - 向 `webContents.print()` 添加了几个标准页面大小选项。 [#37265](https://github.com/electron/electron/pull/37265)
 - 向会话处理程序 `ses.setDisplayMediaRequestHandler()` 的回调中添加了 `enableLocalEcho` 标志，以允许当 `audio` 为 `WebFrameMain` 时在本地输出流中回显远程音频输入。 [#37528](https://github.com/electron/electron/pull/37528)
 - 允许向 `inAppPurchase.purchaseProduct()` 传递一个特定于应用程序的用户名。 [#35902](https://github.com/electron/electron/pull/35902)
-- 公开了 `window.invalidateShadow()`，以清除macOS上残留的视觉伪影。 [#32452](https://github.com/electron/electron/pull/32452)
+- 公开了 `window.invalidateShadow()`，以清除 macO S上残留的视觉伪影。 [#32452](https://github.com/electron/electron/pull/32452)
 - 整个程序优化现在在 Electron headers 配置文件中默认启用，允许编译器利用程序中所有模块的信息进行优化，而不是以每个模块 (compiland) 为基础。 [#36937](https://github.com/electron/electron/pull/36937)
 - `SystemPreferences::CanPromptTouchID` (macOS) 现在支持Apple Watch。 [#36935](https://github.com/electron/electron/pull/36935)
 
