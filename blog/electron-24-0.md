@@ -62,7 +62,7 @@ nativeImage.createThumbnailFromPath(imagePath, downSize).then((result) => {
 win.setTrafficLightPosition({ x: 10, y: 10 });
 win.setTrafficLightPosition({ x: 0, y: 0 });
 
-// 用来代替
+// 替换为
 win.setWindowButtonPosition({ x: 10, y: 10 });
 win.setWindowButtonPosition(null);
 ```
@@ -72,16 +72,16 @@ win.setWindowButtonPosition(null);
 `BrowserWindow.getTrafficLightPosition()` 已弃用，应使用 `BrowserWindow.getWindowButtonPosition()` API，当没有自定义位置时，它返回 `null` 而不是 `{ x: 0, y: 0 }` 。
 
 ```js
-// Deprecated in Electron 24
+// 在 Electron 24 中弃用
 const pos = win.getTrafficLightPosition()
 if (pos.x === 0 && pos.y === 0) {
   // 没有自定义位置。
 }
 
-// Replace with
+// 替换为
 const ret = win.getWindowButtonPosition();
 if (ret === null) {
-  // No custom position.
+  // 没有自定义位置。
 }
 ```
 
