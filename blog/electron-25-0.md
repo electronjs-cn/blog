@@ -128,7 +128,7 @@ if (ret === null) {
 - 向 `webContents` 和 `webview` 标签添加了一个 `will-frame-navigate` 事件，每当 frame 层中的任何一个 frame 调用 navigate 时，都会触发该函数。[#34418](https://github.com/electron/electron/pull/34418)
 - 向 navigator 事件添加了启动信息。这个信息允许区分来自父框架 `window.open` 引起的 navigation 事件，而不是来自子框架发起的 navigation 事件。[#37085](https://github.com/electron/electron/pull/37085)
 - 增加了 net.resolveHost，它使用 defaultSession 对象来解析 hosts。[#38152](https://github.com/electron/electron/pull/38152)
-- 向 `app` 添加了新的 'did-resign-active' 事件。[#38018](https://github.com/electron/electron/pull/38018)
+- 向 `app` 添加了新的 `did-resign-active` 事件。[#38018](https://github.com/electron/electron/pull/38018)
 - 向 `webContents.print()` 添加了几个标准页面大小选项。[#37159](https://github.com/electron/electron/pull/37159)
 - 向会话处理程序 `ses.setDisplayMediaRequestHandler()` 的回调中添加了 `enableLocalEcho` 标志，以允许当 `audio` 为 `WebFrameMain` 时在本地输出流中回显远程音频输入。[#37315](https://github.com/electron/electron/pull/37315)
 - 向 `powerMonitor` 添加了 thermal 信息管理。[#38028](https://github.com/electron/electron/pull/38028)
