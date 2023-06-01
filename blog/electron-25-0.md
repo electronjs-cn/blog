@@ -133,7 +133,7 @@ if (ret === null) {
 - 向会话处理程序 `ses.setDisplayMediaRequestHandler()` 的回调中添加了 `enableLocalEcho` 标志，以允许当 `audio` 为 `WebFrameMain` 时在本地输出流中回显远程音频输入。[#37315](https://github.com/electron/electron/pull/37315)
 - 向 `powerMonitor` 添加了 thermal 信息管理。[#38028](https://github.com/electron/electron/pull/38028)
 - 允许将绝对路径传递给 session.fromPath() API。[#37604](https://github.com/electron/electron/pull/37604)
-- 在 `webContents` 上公开 `audio-state-changed` 事件。[#37366](https://github.com/electron/electron/pull/37366)
+- 在 `webContents` 上暴露出了 `audio-state-changed` 事件。[#37366](https://github.com/electron/electron/pull/37366)
 
 ## 终止对 22.x.y 的支持
 
