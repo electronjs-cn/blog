@@ -81,7 +81,7 @@ protocol.registerFileProtocol('some-protocol', () => {
   callback({ filePath: '/path/to/my/file' });
 });
 
-// 代替为
+// 替换为
 protocol.handle('some-protocol', () => {
   return net.fetch('file:///path/to/my/file');
 });
