@@ -19,7 +19,7 @@ Electron 25.0.0 已发布！此次升级中包含 Chromium `114`，V8 `11.4`，�
 
 Electron 团队很高兴发布了 Electron 25.0.0 ！您可以通过 `npm install electron@latest` 进行安装，或者从我们的 [发布网站](https://releases.electronjs.org/releases/stable) 下载它。 继续阅读此版本的详细信息。
 
-如果您有任何反馈，请在Twitter上与我们分享，或加入我们的社区 [Discord](https://discord.com/invite/electronjs)！Bug 和功能请求可以在 Electron 的 [问题跟踪器](https://github.com/electron/electron/issues) 中报告。
+如果您有任何反馈，请在 Twitter 上与我们分享，或加入我们的社区 [Discord](https://discord.com/invite/electronjs)！Bug 和功能请求可以在 Electron 的 [问题跟踪器](https://github.com/electron/electron/issues) 中报告。
 
 ## 重要变化
 
