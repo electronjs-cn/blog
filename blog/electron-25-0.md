@@ -69,7 +69,7 @@ protocol.registerHttpProtocol('some-protocol', () => {
   callback({ url: 'https://electronjs.org' });
 });
 
-// 代替为
+// 替换为
 protocol.handle('some-protocol', () => {
   return net.fetch('https://electronjs.org');
 });
