@@ -44,7 +44,7 @@ Electron 团队很高兴发布了 Electron 25.0.0 ！您可以通过 `npm instal
 
 #### 已废弃：`protocol.{register,intercept}{Buffer,String,Stream,File,Http}Protocol`
 
-`protocol.register*Protocol` 和 `protocol.intercept*Protocol` 方法已替换为 [`protocol.handle`](api/protocol.md#protocolhandlescheme-handler)。
+`protocol.register*Protocol` 和 `protocol.intercept*Protocol` 方法已替换为 [`protocol.handle`](latest/api/protocol.md#protocolhandlescheme-handler)。
 
 新方法可以注册新协议或拦截现有协议协议和响应可以是任何类型。
 
