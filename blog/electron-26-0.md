@@ -30,9 +30,9 @@ Electron 团队很高兴发布了 Electron 26.0.0 ！ 您可以通过 `npm insta
 
 ### 重大更改
 
-### 弃用：`webContents.getPrinters`
+### `webContents.getPrinters` 被弃用
 
-`webContents.getPrinters` 方法已经被废除。 使用`webContents.getPrintersAsync`代替。
+`webContents.getPrinters` 方法已经被弃用。 使用`webContents.getPrintersAsync`代替。
 
 ```js
 const w = new BrowserWindow({ show: false });
@@ -45,7 +45,7 @@ w.webContents.getPrintersAsync().then((printers) => {
 });
 ```
 
-### 弃用：`systemPreferences.{get,set}AppLevelAppearance` 和 `systemPreferences.appLevelAppearance`
+### `systemPreferences.{get,set}AppLevelAppearance` 和 `systemPreferences.appLevelAppearance` 被弃用
 
 方法`systemPreferences.getAppLevelAppearance` 和 `systemPreferences.setAppLevelAppearance` 已被弃用，也包括属性 `systemPreferences.appLevelAppearance`。 请改用模块 `nativeTheme`。
 
@@ -66,7 +66,7 @@ systemPreferences.setAppLevelAppearance('dark');
 nativeTheme.themeSource = 'dark';
 ```
 
-### 弃用：`systemPreferences.getColor` 的 `alternate-selected-control-text` 值
+### `systemPreferences.getColor` 的 `alternate-selected-control-text` 值被弃用
 
 `systemPreferences.getColor` 的 `alternate-selected-control-text` 值已被弃用。 替换为 `selected-content-background`。
 
@@ -99,6 +99,6 @@ systemPreferences.getColor('selected-content-background');
 
 在短期内，您可以期待团队继续专注于跟上构成 Electron 的主要组件的开发，包括 Chromium、Node 和 V8。
 
-您可以在此处找到 [ Electron的公开时间表 ](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)。
+您可以在此处找到 [Electron的公开时间表](https://www.electronjs.org/docs/latest/tutorial/electron-timelines)。
 
 有关这些和未来变化的更多信息可在 [计划的突破性变化](https://github.com/electron/electron/blob/main/docs/breaking-changes.md) 页面找到。
