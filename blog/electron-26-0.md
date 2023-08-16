@@ -81,7 +81,7 @@ systemPreferences.getColor('selected-content-background');
 
 - 添加了 `safeStorage.setUsePlainTextEncryption` 和 `safeStorage.getSelectedStorageBackend` api。 [#39107](https://github.com/electron/electron/pull/39107)
 - 添加了 `safeStorage.setUsePlainTextEncryption` 和 `safeStorage.getSelectedStorageBackend` api。 [#39155](https://github.com/electron/electron/pull/39155)
-- Added `senderIsMainFrame` to messages sent via `ipcRenderer.sendTo()`. [#39206](https://github.com/electron/electron/pull/39206)
+- 添加了 `senderIsMainFrame` to messages sent via `ipcRenderer.sendTo()`. [#39206](https://github.com/electron/electron/pull/39206)
 - 添加了由键盘初始化菜单弹出的支持。 [#38954](https://github.com/electron/electron/pull/38954)
 
 ## 终止对 23.x.y 的支持
