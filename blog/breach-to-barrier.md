@@ -30,7 +30,7 @@ Electron 也迅速行动，当天发布了新版本：如果您的应用渲染�
 
 您需要处理两件事：
 
-1. 如果您在`preload`脚本或实际的`WebContents`中使用 Node.js 代码，您需要将所有 Node.js 交互移动到主进程（或者，如果您喜欢，一个实用程序进程）。考虑到渲染器已经变得如此强大，很有可能您的大部分代码实际上并不真正需要重构。
+1. 如果您在 `preload` 脚本或实际的 `WebContents` 中使用 Node.js 代码，您需要将所有 Node.js 交互移动到主进程（或者，如果您喜欢，一个实用程序进程）。考虑到渲染器已经变得如此强大，很有可能您的大部分代码实际上并不真正需要重构。
 
    请参考我们关于[进程间通信](https://www.electronjs.org/docs/latest/tutorial/ipc)的文档。在我的情况下，我移动了很多代码并将其包装在`ipcRenderer.invoke()`和`ipcMain.handle()`中，但这个过程是直接的并且很快完成。在这里稍微注意一下您的 API - 如果您构建了一个名为`executeCodeAsRoot(code)`的 API，沙箱不会为您的用户提供太多保护。
 
