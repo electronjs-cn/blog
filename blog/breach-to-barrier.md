@@ -24,7 +24,7 @@ Electron 也迅速行动，当天发布了新版本：如果您的应用渲染�
 
 沙箱使得这种情况变得不那么可怕：沙箱内的进程可以自由地使用 CPU 周期和内存——仅此而已。进程不能写入磁盘或显示它们自己的窗口。在我们的 `libwep` 错误的情况下，沙箱确保攻击者不能安装或运行恶意软件。事实上，在对员工 iPhone 的原始 Pegasus 攻击中，攻击特意针对一个非沙箱化的图像进程来获得对手机的访问权限，首先突破了通常沙箱化的 iMessage 的边界。当像这个例子中的 CVE 被公布时，您仍然需要将您的 Electron 应用升级到一个安全的版本——但与此同时，攻击者能造成的损害大大减少。
 
-将一个普通的 Electron 应用从`sandbox: false`迁移到`sandbox: true`是一项重大任务。我知道，因为尽管我亲自写了[Electron 安全指南](https://www.electronjs.org/docs/latest/tutorial/security)的初稿，但我还没有成功地迁移我的一个应用来使用它。这个周末这种情况发生了变化，我建议您也做出改变。
+将一个普通的 Electron 应用从 `sandbox: false` 迁移到 `sandbox: true` 是一项重大任务。我知道，因为尽管我亲自写了 [Electron 安全指南](https://www.electronjs.org/docs/latest/tutorial/security)的初稿，但我还没有成功地迁移我的一个应用来使用它。这个周末这种情况发生了变化，我建议您也做出改变。
 
 ![不要被行数的变化吓到，大部分都在`package-lock.json`中](https://www.electronjs.org/assets/images/breach-to-barrier-741ae594fea92cc24532491071794e18.png)
 
