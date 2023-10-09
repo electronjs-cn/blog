@@ -26,7 +26,7 @@ Electron 也迅速行动，当天发布了新版本：如果您的应用渲染�
 
 将一个普通的 Electron 应用从 `sandbox: false` 迁移到 `sandbox: true` 是一项重大任务。我知道，因为尽管我亲自写了 [Electron 安全指南](https://www.electronjs.org/docs/latest/tutorial/security)的初稿，但我还没有成功地迁移我的一个应用来使用它。这个周末这种情况发生了变化，我建议您也做出改变。
 
-![不要被行数的变化吓到，大部分都在`package-lock.json`中](https://www.electronjs.org/assets/images/breach-to-barrier-741ae594fea92cc24532491071794e18.png)
+![不要被行数的变化吓到，大部分都在 `package-lock.json` 中](https://www.electronjs.org/assets/images/breach-to-barrier-741ae594fea92cc24532491071794e18.png)
 
 您需要处理两件事：
 
