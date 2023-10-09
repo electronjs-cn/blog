@@ -10,7 +10,7 @@ slug: breach-to-barrier
 
 # 从漏洞到屏障：用沙箱加强应用程序
 
-自[ CVE-2023-4863: Heap buffer overflow in WebP](https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_11.html)公开以来已经过去了一个多星期，这导致了大量渲染`webp`图像的软件新版本的发布：macOS、iOS、Chrome、Firefox 以及各种 Linux 发行版都收到了更新。这是在 Citizen Lab 的调查之后，他们发现一个位于“华盛顿特区的民间社会组织”使用的 iPhone 正在受到 iMessage 中的零点击利用的攻击。
+自 [CVE-2023-4863: Heap buffer overflow in WebP](https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_11.html) 公开以来已经过去了一个多星期，这导致了大量渲染 `webp` 图像的软件新版本的发布：macOS、iOS、Chrome、Firefox 以及各种 Linux 发行版都收到了更新。这是在 Citizen Lab 的调查之后，他们发现一个位于“华盛顿特区的民间社会组织”使用的 iPhone 正在受到 iMessage 中的零点击利用的攻击。
 
 Electron 也迅速行动，当天发布了新版本：如果您的应用渲染任何用户提供的内容，您应该更新您的 Electron 版本 - v27.0.0-beta.2、v26.2.1、v25.8.1、v24.8.3 和 v22.3.24 都包含了一个修复版本的`libwebp`，这是一个负责渲染`webp`图像的库。
 
