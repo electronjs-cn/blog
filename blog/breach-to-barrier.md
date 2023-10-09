@@ -1,5 +1,5 @@
 ---
-title: 'Breach to Barrier: Strengthening Apps with the Sandbox'
+title: '从漏洞到屏障：用沙箱加强应用程序'
 date: 2023-09-29T00:00:00.000Z
 authors:
   - name: felixrieseberg
