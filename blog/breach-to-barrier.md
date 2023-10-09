@@ -34,7 +34,7 @@ Electron 也迅速行动，当天发布了新版本：如果您的应用渲染�
 
    请参考我们关于[进程间通信](https://www.electronjs.org/docs/latest/tutorial/ipc)的文档。在我的情况下，我移动了很多代码并将其包装在 `ipcRenderer.invoke()` 和 `ipcMain.handle()` 中，但这个过程是直接的并且很快完成。在这里稍微注意一下您的 API - 如果您构建了一个名为 `executeCodeAsRoot(code)` 的 API，沙箱不会为您的用户提供太多保护。
 
-2. 由于启用沙箱会在您的预加载脚本中禁用 Node.js 集成，您不能再使用`require("../my-script")`。换句话说，您的预加载脚本需要是一个单独的文件。
+2. 由于启用沙箱会在您的预加载脚本中禁用 Node.js 集成，您不能再使用 `require("../my-script")`。换句话说，您的预加载脚本需要是一个单独的文件。
 
    有多种方法可以做到这一点：Webpack、esbuild、parcel 和 rollup 都可以完成这项工作。我使用了[Electron Forge 的出色的 Webpack 插件](https://www.electronforge.io/config/plugins/webpack)，同样受欢迎的 `electron-builder` 的用户可以使用 [`electron-webpack`](https://webpack.electron.build/)。
 
