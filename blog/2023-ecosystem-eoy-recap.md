@@ -10,13 +10,13 @@ Electron Forge 7 — 用于打包和分发 Electron 应用程序的一体化工�
 
 虽然 Forge 6 与 v5 是完全重写的，但 v7 的范围较小，但仍包含一些重大变更。 未来，我们将继续发布 Forge 的主要版本，以便进行必要的重大变更。
 
-欲了解更多详情，请参阅 GitHub 上的完整描述 [Forge v7.0.0 更新日志](https://github.com/electron/forge/releases/tag/v7.0.0.0)。 
+欲了解更多详情，请参阅 GitHub 上的完整描述 [Forge v7.0.0 更新日志](https://github.com/electron/forge/releases/tag/v7.0.0)。 
 
 ### 重大变更
 
 - **切换 macOS notarization 工具到 `notarytool`：** 截至2023-11-01。 苹果废弃了 macOS notarization 的传统工具 `altool`，此次发布将其从 Electron Forge 中完全删除。
 - **最小 Node.js 支持增加到 v16.4.0:** 在这个版本中，我们已将所需版本的 Node.js 设置为 16.4.0。
-- **废弃了对 `electron-prebuild` 和 `electron-prebuild-compile` 的支持：** `electron-prebuild` [是 electron npm 模块的原始名称](https://www.electronjs.org/blog/npm-install-electron-electron)的支持，但在 v1.3.1 中 被 `electron` 代替了。`electron-prebuild-compile` 是一个带有增强开发体验功能的二进制文件的替代方案，但最终作为一个项目被放弃了。
+- **废弃了对 `electron-prebuild` 和 `electron-prebuild-compile` 的支持：** `electron-prebuild` [是 electron npm 模块的原始名称](https://www.electronjs.org/blog/npm-install-electron)的支持，但在 v1.3.1 中 被 `electron` 代替了。`electron-prebuild-compile` 是一个带有增强开发体验功能的二进制文件的替代方案，但最终作为一个项目被放弃了。
 
 ### 重点内容
 
@@ -46,7 +46,7 @@ Squirel.Windows 和 Squirrel.Mac 是支持 Electron 的内置 `autoUpdater` 模�
 - Electron Forge 的 Zip 和 Squirrel.Windows 制作工具现在可以配置为输出与 `autoUpdater` 兼容的更新清单。
 - 现在，`update-electron-app` 的一个新的主要版本（v2.0.0）可以读取这些生成的清单，作为 [update.electronjs.org](https://update.electronjs.org) 服务器的替代方案。
 
-一旦你的 Makers 和 Publishers 配置好了并上传更新清单到云文件存储，您只需要几行配置代码就可以启用自动更新。
+一旦你的 Makers 和 Publishers 配置好了并上传更新清单到云文件存储，你只需要几行配置代码就可以启用自动更新。
 
 ```jsx
 const { updateElectronApp, UpdateSourceType } = require('update-electron-app');
