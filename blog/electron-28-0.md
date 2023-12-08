@@ -72,7 +72,7 @@ if (ret === null) {
 
 #### 移除: `ipcRenderer.sendTo()`
 
-`ipcRenderer.sendTo()` API 已经被删除。 应该通过在渲染器之间建立一个 [`MessageChannel`](tutorial/message-ports.md#setting-up-a-messagechannel-between-two-renderers) 来进行替换。
+`ipcRenderer.sendTo()` API 已经被删除。 应该替换为在 `Node` 和渲染器之间建立一个 [`MessageChannel`](tutorial/message-ports.md#setting-up-a-messagechannel-between-two-renderers) 来进行通讯。
 
 `IpcRendererEvent` 的 `senderId` 和 `senderIsMainFrame` 属性也已经被移除。
 
