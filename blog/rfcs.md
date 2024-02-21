@@ -61,7 +61,7 @@ Electron 社区中的任何人都可以提交 RFC 或在 `electron/rfcs` 仓库�
 
 我们希望将这个过程变成一种双向对话，并鼓励社区参与，以便从可能在未来使用这些 API 的 Electron 应用程序中获得多样化的意见。 如果你
 对当前提出的 RFC 留下反馈感兴趣，Electron 的维护者们已经创建了
-一些：
+我们希望将这个过程变成一种双向对话，并鼓励社区参与，以便从可能在未来使用这些 API 的 Electron 应用程序中获得多样化的意见。 如果你对当前提出的 RFC 留下反馈感兴趣，Electron 的维护者们已经创建了一些：
 
 - [Electron C APIs](https://github.com/electron/rfcs/pull/3)
 - [Preload Realm for Service Workers](https://github.com/electron/rfcs/pull/4)
