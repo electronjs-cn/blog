@@ -13,9 +13,7 @@ Electron 的 [API 工作组](https://github.com/electron/governance/tree/main/wg
 对于更重大的变化-例如，大型 API 或会影响大多数 Electron 应用程序的破坏性更改，在
 构思阶段进行审查是有意义的。
 
-这个过程旨在对公众开放，这也将使得广大
-开源社区能够在这些变化落实到
-Electron之前，更容易地提供反馈。
+这个过程旨在对公众开放，这也将使得广大开源社区能够在这些变化落实到 Electron 之前，更容易地提供反馈。
 
 ## 它是如何工作的？
 
