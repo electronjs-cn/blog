@@ -115,7 +115,7 @@ app.on('child-process-gone', (event, details) => {
 
 ## 接下来
 
-您是否知道 Electron 最近添加了社区征求意见 (RFC) 流程？ 如果您想在框架中添加一项功能，RFC 可以成为您与维护者就功能设计展开对话的有用工具。 您还可以查看 PR 中正在讨论的即将发生的更改。若要了解更多信息，请直接查看我们的 [introduction electron/rfcs](https://www.electronijs.org/blog/rfcs) 博客文章，或查看 [electron/rfcs](https://www.github.com/electron/rfcs) 版本库的 README。
+你是否知道 Electron 最近添加了社区征求意见 (RFC) 流程？ 如果你想在框架中添加一项功能，RFC 可以成为你与维护者就功能设计展开对话的有用工具。 你还可以查看 PR 中正在讨论的即将发生的更改。若要了解更多信息，请直接查看我们的 [introduction electron/rfcs](https://www.electronijs.org/blog/rfcs) 博客文章，或查看 [electron/rfcs](https://www.github.com/electron/rfcs) 版本库的 README。
 
 在短期内，您可以期待团队继续专注于跟上构成 Electron 的主要组件的开发，包括 Chromium、Node 和 V8。
 
