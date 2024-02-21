@@ -5,10 +5,7 @@ Electron 的 [API 工作组](https://github.com/electron/governance/tree/main/wg
 
 简而言之，我们希望顺利完成 Electron core 重大变更的落地过程。
 
-目前，新的代码主要通过 GitHub 上的 issues 和拉取代码合并请求进行变更的。
-对于 Electron 的大多数更改，这是一个很好的体系。 许多错误修复、文档更改、
-甚至新功能也足够简单，可以通过以下方式异步审查和合并
-标准 GitHub 流程。
+目前，新的代码主要通过 GitHub 上的 issues 和拉取代码合并请求进行变更的。对于 Electron 的大多数更改，这是一个很好的体系。 许多错误修复、文档更改、甚至新功能也足够简单，可以通过以下方式异步审查和合并标准 GitHub 流程。
 
 对于更重大的变化-例如，大型 API 或会影响大多数 Electron 应用程序的破坏性更改，在
 构思阶段进行审查是有意义的。
