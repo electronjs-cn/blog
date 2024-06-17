@@ -19,7 +19,7 @@ Electron 团队很高兴发布了 Electron 31.0.0 ！ 你可以通过 `npm insta
 
 ### 架构（Stack）更新
 
-- Chromium`126.0.6478.36`
+- Chromium `126.0.6478.36`
   - [126 新功能](https://developer.chrome.com/blog/new-in-chrome-126/)
   - [125 新功能](https://developer.chrome.com/blog/new-in-chrome-125/)
 - Node `20.14.0`
@@ -37,7 +37,7 @@ Electron 31 将 Chromium 从 `114.0.6367.49` 升级到 `122.. 0.661.39`, Node �
 - 扩展 `webContents.setWindowOpenHandler` 以支持手动创建 BrowserWindow。 [#41432](https://github.com/electron/electron/pull/41432)
 - 实现了对 web 标准 [File System API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API) 的支持。 [#41419](https://github.com/electron/electron/pull/41419)
 - 扩展 WebContentsView 以接受预先存在的 webContents 对象 [#42319](https://github.com/electron/electron/pull/42319)
-- 在 webContents API 上添加了一个新的实例属性 `navigationHistory`，配合 `navigationHistory.getEntryAtIndex` 方法，使应用能够检索浏览历史中任何导航条目的 URL 和标题。 [#41577](https://github.com/electron/electron/pull/41577) (也在 [29](https://github.com/electron/electron/pull/41661), [30](https://github.com/electron/electron/pull/41662))
+- 在 webContents API 上添加了一个新的实例属性 `navigationHistory`，配合 `navigationHistory.getEntryAtIndex` 方法，使应用能够检索浏览历史中任何导航条目的 URL 和标题。 [#41577](https://github.com/electron/electron/pull/41577) *(也在 [29](https://github.com/electron/electron/pull/41661), [30](https://github.com/electron/electron/pull/41662))*
 
 ### 重大更改
 
