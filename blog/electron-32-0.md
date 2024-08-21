@@ -32,7 +32,7 @@ Electron 32 将 Chromium 从 `126.0.6478.36` 升级到 `128.0.6613.36`， Node �
 - 在 `CPUUsage` 结构中添加了 `cumulativeCPUUsage` 属性，该属性返回自进程启动以来使用的 CPU 时间的总秒数。[#41819](https://github.com/electron/electron/pull/41819)
 - 将以下现有的导航相关 API 添加到 `webContents.navigationHistory`: `canGoBack`，`goBack`，`canGoForward`，`goForward`，`canGoToOffset`，`goToOffset`，`clear`。[#41752](https://github.com/electron/electron/pull/41752)
 - 扩展 `WebContentsView` 以接受预先存在的 `webContents` 对象。[#42086](https://github.com/electron/electron/pull/42086)
-- 在 `nativeTheme` 中添加了一个新属性 `prefersReducedTransparency` ，该属性指示用户是否选择通过系统辅助功能设置来降低操作系统级别的透明度。[#43137](https://github.com/electron/electron/pull/43137)
+- 在 `nativeTheme` 中添加了一个新属性 `prefersReducedTransparency`，该属性指示用户是否选择通过系统辅助功能设置来降低操作系统级别的透明度。[#43137](https://github.com/electron/electron/pull/43137)
 - 尝试打开阻塞路径中的文件或目录时，将文件系统访问 API 中的故障路径与上游对齐。[#42993](https://github.com/electron/electron/pull/42993)
 - 在 Linux 上启用 Windows 控制叠加层 API。[#42681](https://github.com/electron/electron/pull/42681)
 - 在网络请求中启用 `zstd` 压缩。[#43300](https://github.com/electron/electron/pull/43300)
