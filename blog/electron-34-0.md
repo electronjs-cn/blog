@@ -11,7 +11,7 @@ Electron 团队很高兴发布了 Electron 34.0.0！你可以通过 `npm install
 ### 重点内容
 
 - 添加了 `WebFrameMain.collectJavaScriptCallStack()` 用于访问无响应渲染器的 JavaScript 调用堆栈。[#44938](https://github.com/electron/electron/pull/44938)
-- 添加了API以管理共享字典，以提高使用 Brotli 或 ZStandard 的压缩效率。新的 APIs 是 `session.getSharedDictionaryUsageInfo()`、 `session.getSharedDictionaryInfo(options)`、 `session.clear. SharedDictionaryCache()`、 和 `session.clear. SharedDictionaryCacheForIsolation(options)`. [#44950](https://github.com/electron/electron/pull/44950)
+- 添加了 API 以管理共享字典，以提高使用 Brotli 或 ZStandard 的压缩效率。新的 API 是 `session.getSharedDictionaryUsageInfo()`、 `session.getSharedDictionaryInfo(options)`、 `session.clear. SharedDictionaryCache()`、 和 `session.clear. SharedDictionaryCacheForIsolation(options)`. [#44950](https://github.com/electron/electron/pull/44950)
 
 ### 架构（Stack）更新
 
@@ -26,7 +26,7 @@ Electron 34 将 Chromium 从 `130.0.6723.44` 升级到 `132.0.6834.83`，Node �
 
 ### 新特性
 
-- 添加了API以管理共享字典，以提高使用 Brotli 或 ZStandard 的压缩效率。新的 APIs 是 `session.getSharedDictionaryUsageInfo()`、 `session.getSharedDictionaryInfo(options)`、 `session.clear. SharedDictionaryCache()`、 和 `session.clear. SharedDictionaryCacheForIsolation(options)`. [#44950](https://github.com/electron/electron/pull/44950)
+- 添加了 API 以管理共享字典，以提高使用 Brotli 或 ZStandard 的压缩效率。新的 API 是 `session.getSharedDictionaryUsageInfo()`、 `session.getSharedDictionaryInfo(options)`、 `session.clear. SharedDictionaryCache()`、 和 `session.clear. SharedDictionaryCacheForIsolation(options)`. [#44950](https://github.com/electron/electron/pull/44950)
 - 添加了 `WebFrameMain.collectJavaScriptCallStack()` 用于访问无响应渲染器的 JavaScript 调用堆栈。[#44938](https://github.com/electron/electron/pull/44938)
 - 为处于卸载状态的帧添加了 `WebFrameMain.detached`。
   - 添加了 `WebFrameMain.isDestroyed()` 方法，用于判断 frame 是否已被销毁。
@@ -38,7 +38,7 @@ Electron 34 将 Chromium 从 `130.0.6723.44` 升级到 `132.0.6834.83`，Node �
 
 ### 行为改变：在 Windows 全屏时，菜单栏将被隐藏
 
-这使行为与Linux保持一致。之前的行为：在 Windows 上全屏时菜单栏仍然可见。新行为：在 Windows 全屏时隐藏菜单栏。
+这使行为与 Linux 保持一致。之前的行为：在 Windows 上全屏时菜单栏仍然可见。新行为：在 Windows 全屏时隐藏菜单栏。
 
 **更正**：之前这被列为 Electron 33 中的重大更改，但首次发布是在 Electron 34 中。
 
